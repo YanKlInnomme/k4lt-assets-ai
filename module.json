@@ -1,0 +1,72 @@
+{
+  "id": "k4lt-assets-ai",
+  "title": "KULT: Divinity Lost · AI Assets",
+  "description": "AI Assets for KULT: Divinity Lost system.",
+  "version": "1.0.0",
+  "license": "LICENSE",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.364",
+    "maximum": "15"
+  },
+  "authors": [
+    {
+      "name": "YanK l'Innommé",
+      "url": "https://yanklinnomme.fr",
+      "email": "contact@yanklinnomme.fr",
+      "discord": "yanklinnomme"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {"id": "k4lt"}
+    ]
+  },
+  "esmodules": ["k4lt-assets-ai.js"],
+  "styles": ["k4lt-assets-ai.css"],
+  "packs": [
+    {
+      "label": "Additional Journals · GOS",
+      "name": "additional-journals--gos",
+      "type": "JournalEntry",
+      "system": "k4lt",
+      "path": "packs/additional-journals--gos"
+    },
+    {
+      "label": "Additional Journals · OH",
+      "name": "additional-journals--oh",
+      "type": "JournalEntry",
+      "system": "k4lt",
+      "path": "packs/additional-journals--oh"
+    },
+    {
+      "label": "Additional Playlists · TBM",
+      "name": "additional-playlists--tbm",
+      "type": "Playlist",
+      "system": "k4lt",
+      "path": "packs/additional-playlists--tbm"
+    },
+    {
+      "label": "Additional Scenes · TBM",
+      "name": "additional-scenes--tbm",
+      "type": "Scene",
+      "system": "k4lt",
+      "path": "packs/additional-scenes--tbm"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+    "url": "https://github.com/YanKlInnomme/FoundryVTT-k4lt-assets-ai",
+    "manifest": "",
+    "download": ""
+}

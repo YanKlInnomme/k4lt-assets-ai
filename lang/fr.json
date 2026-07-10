@@ -1,0 +1,27 @@
+{
+  "k4lt-assets-ai": {
+    "Dialog": {
+      "moduleActivatedTitle": "Module détecté : Contenu additionnel disponible",
+      "moduleActivatedContent": "Le module <strong>k4lt-assets-ai</strong> contient des éléments supplémentaires générés par IA pour le module <strong>k4lt-the-black-madonna</strong>. Ces éléments sont conçus pour enrichir l'expérience et renforcer l'immersion dans la campagne <strong>The Black Madonna</strong>.",
+      "moduleActivatedQuestion": "Voulez-vous utiliser ce contenu additionnel créé avec des outils génératifs ?",
+      "applyMadonnaAdditionalContent": "Application du contenu additionnel...",
+      "doNotShowAgain": "Ne plus afficher"
+    },
+    "Settings": {
+      "useAdditionalContentName": "Activer le contenu additionnel",
+      "useAdditionalContentHint": "Activez cette option si vous souhaitez utiliser du contenu généré par IA pour enrichir la campagne The Black Madonna.",
+      "hideAssetsDialogName": "Ne plus afficher la boîte de dialogue",
+      "hideAssetsDialogHint": "Si activé, la boîte de dialogue ne sera plus affichée pour cet utilisateur.",
+      "AIGeneratedNotice": "<div style='border: 1px solid #888; padding: 1em; background-color: #1e1e1e; color: #e0e0e0; border-radius: 6px; font-size: 0.9em; line-height: 1.5;'><p>Ce matériel généré par IA est :</p><ul style='margin-top: 0.5em; margin-bottom: 0.5em;'><li><strong>Non officiel</strong>, et ne fait pas partie du contenu original de <em>Kult : The Black Madonna</em>,</li><li><strong>Non approuvé, soutenu ou révisé</strong> par Helmgast ou les détenteurs des droits de <em>Kult</em>,</li><li><strong>Fourni gratuitement et séparément</strong> via le module \"k4lt-assets-ai\",</li><li><strong>Désactivé par défaut</strong>, et uniquement activé avec le consentement explicite du Maître de Jeu.</li></ul><p>Ce contenu a été créé par moi dans le but d'enrichir l'expérience sur table virtuelle, tout en le distinguant clairement du matériel canonique. Il suit une <strong>direction artistique et un ton narratif distincts</strong> pour éviter toute confusion avec les ressources officielles de <em>Kult</em>.</p></div>"
+    },
+    "Module": {
+      "Title": "Module k4lt-assets-ai"
+    },
+    "Links": {
+      "GitTitle": "Dépôt du module",
+      "GitURL": "https://github.com/YanKlInnomme/FoundryVTT-k4lt-assets-ai",
+      "DonationTitle": "Offre-moi un café",
+      "DonationURL": "https://www.buymeacoffee.com/yank"
+    }
+  }
+}
