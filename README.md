@@ -67,6 +67,9 @@ https://github.com/YanKlInnomme/FoundryVTT-k4lt-assets-ai/releases/latest/downlo
 
 > **Remarque :** Ce module est conçu pour compléter les modules KULT compatibles et n'a pas vocation à être utilisé seul.
 
+## Version 2.0.1
+ * Correction mineure sur les fichiers de langue pour le français et l'anglais.
+
 ## Version 2.0.0
  * Ajout d'une option permettant d'activer ou de désactiver les ressources additionnelles générées par IA pour le scénario 'Galerie des Âmes', comprenant :
     - 27 portraits afin d'illustrer les personnages non joueurs (PNJ) et les personnages joueurs (PJ) ;
@@ -74,7 +77,6 @@ https://github.com/YanKlInnomme/FoundryVTT-k4lt-assets-ai/releases/latest/downlo
  * Ajout d'une option permettant d'activer ou de désactiver les ressources additionnelles générées par IA pour le scénario 'Oakwood Heights VF', comprenant :
     - 23 portraits afin d'illustrer les personnages non joueurs (PNJ) et les personnages joueurs (PJ) ;
     - Un kit d'immersion de 9 illustrations à utiliser en jeu.
-
 
 ## Version 1.0.0
  * Création du module à la suite de l'évolution de la politique de Foundry VTT concernant les contenus générés par intelligence artificielle ;
@@ -150,6 +152,9 @@ https://github.com/YanKlInnomme/FoundryVTT-k4lt-assets-ai/releases/latest/downlo
 4. Enable the module in your world.
 
 > **Note:** This module is intended to complement compatible KULT modules and is not designed to be used on its own.
+
+## Version 2.0.1
+ * Minor fixes to the language files for French and English.
 
 ## Version 2.0.0
  * Added an option allowing users to enable or disable the AI-generated supplementary resources for 'Gallery of Souls' scenario, including:
