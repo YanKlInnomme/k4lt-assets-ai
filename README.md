@@ -43,9 +43,42 @@ Ces ressources ont été créées dans le but d'enrichir l'expérience de jeu su
 
 Ce module a donc été créé afin de les regrouper séparément et de permettre aux utilisateurs qui le souhaitent de continuer à les utiliser en complément des modules principaux.
 
+## Installation
+
+En raison de la politique de Foundry Virtual Tabletop concernant les contenus générés par intelligence artificielle, ce module n'est pas distribué via le gestionnaire officiel de modules de Foundry VTT.
+
+### Option 1 — Installation via l'URL du manifeste (recommandée)
+1. Ouvrez **Modules complémentaires**.
+2. Cliquez sur **Installer un module**.
+3. Collez l'URL suivante dans le champ **URL du manifeste** :
+
+```text
+https://github.com/YanKlInnomme/FoundryVTT-k4lt-assets-ai/releases/latest/download/module.json
+```
+
+4. Cliquez sur **Installer**.
+5. Activez ensuite le module dans votre monde.
+
+### Option 2 — Installation manuelle
+1. Téléchargez la dernière version depuis la page **Releases** du dépôt GitHub.
+2. Décompressez l'archive dans le dossier `Data/modules`.
+3. Redémarrez Foundry VTT si nécessaire.
+4. Activez le module dans votre monde.
+
+> **Remarque :** Ce module est conçu pour compléter les modules KULT compatibles et n'a pas vocation à être utilisé seul.
+
+## Version 2.0.0
+ * Ajout d'une option permettant d'activer ou de désactiver les ressources additionnelles générées par IA pour le scénario 'Galerie des Âmes', comprenant :
+    - 27 portraits afin d'illustrer les personnages non joueurs (PNJ) et les personnages joueurs (PJ) ;
+    - 10 illustations pour représenter les croquis de Christian Starker.
+ * Ajout d'une option permettant d'activer ou de désactiver les ressources additionnelles générées par IA pour le scénario 'Oakwood Heights VF', comprenant :
+    - 23 portraits afin d'illustrer les personnages non joueurs (PNJ) et les personnages joueurs (PJ) ;
+    - Un kit d'immersion de 9 illustrations à utiliser en jeu.
+
+
 ## Version 1.0.0
  * Création du module à la suite de l'évolution de la politique de Foundry VTT concernant les contenus générés par intelligence artificielle ;
- * Ajout d'un menu permettant d'activer ou de désactiver les ressources additionnelles générées par IA pour la campagne La Madone Noire, comprenant :
+ * Ajout d'une option permettant d'activer ou de désactiver les ressources additionnelles générées par IA pour la campagne 'La Madone Noire', comprenant :
     - 62 portraits illustrant l'ensemble des personnages non joueurs (PNJ) ;
     - 11 illustrations représentant les principaux lieux de la campagne ;
     - 3 illustrations mettant en scène des éléments scénaristiques clés ;
@@ -94,9 +127,41 @@ Following the changes to Foundry Virtual Tabletop's policy regarding AI-generate
 
 This module was therefore created to package these resources separately, allowing users who wish to do so to continue using them alongside the main modules.
 
+## Installation
+
+Due to Foundry Virtual Tabletop's policy regarding AI-generated content, this module is not distributed through Foundry VTT's official package browser.
+
+### Option 1 — Install using the Manifest URL (recommended)
+1. Open **Add-on Modules**.
+2. Click **Install Module**.
+3. Paste the following Manifest URL into the **Manifest URL** field:
+
+```text
+https://github.com/YanKlInnomme/FoundryVTT-k4lt-assets-ai/releases/latest/download/module.json
+```
+
+4. Click **Install**.
+5. Enable the module in your world.
+
+### Option 2 — Manual installation
+1. Download the latest release from the project's GitHub **Releases** page.
+2. Extract the archive into your `Data/modules` directory.
+3. Restart Foundry VTT if necessary.
+4. Enable the module in your world.
+
+> **Note:** This module is intended to complement compatible KULT modules and is not designed to be used on its own.
+
+## Version 2.0.0
+ * Added an option allowing users to enable or disable the AI-generated supplementary resources for 'Gallery of Souls' scenario, including:
+    - 27 portraits illustrating both non-player characters (NPCs) and player characters (PCs);
+    - 10 illustrations depicting sketches by Christian Starker.
+ * Added an option allowing users to enable or disable the AI-generated supplementary resources for 'Oakwood Heights' scenario, including:
+    - 23 portraits illustrating both non-player characters (NPCs) and player characters (PCs);
+    - An immersion kit consisting of 9 illustrations for in-game use.
+
 ## Version 1.0.0
  * Created following the changes to Foundry VTT's policy regarding AI-generated content;
- * Added a menu allowing users to enable or disable the AI-generated supplementary resources for the Black Madonna campaign, including:
+ * Added an option allowing users to enable or disable the AI-generated supplementary resources for 'The Black Madonna' campaign, including:
    - 62 portraits illustrating all non-player characters (NPCs);
    - 11 illustrations depicting key campaign locations;
    - 3 illustrations featuring important story elements;

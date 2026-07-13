@@ -1,10 +1,9 @@
 // GalleryAdditional.js
 const PATHS = {
   old: "modules/k4lt-assets/scenarios/gallery-of-souls/portraits/",
-  new: "modules/k4lt-assets-ai/scenarios/gallery-of-souls/portraits/",
+  new: "modules/k4lt-assets-ai/scenarios/gallery-of-souls/portraits/"
 };
-const JOURNAL_UUID =
-  "Compendium.k4lt-assets-ai.additional-journals--gos.JournalEntry.Vo3fXHH5yNIsc8CR";
+const JOURNAL_UUID = "Compendium.k4lt-assets-ai.additional-journals--gos.JournalEntry.Vo3fXHH5yNIsc8CR";
 const JOURNAL_ID = JOURNAL_UUID.split(".").pop();
 const TOKEN_IMAGES = {
   "Scene.vumWOL3w644QsRRW.Token.QjaXUxlnMpZtieks":
@@ -22,7 +21,15 @@ const TOKEN_IMAGES = {
   "Scene.gddPobdSIa5nfjVv.Token.EaFXy4VYUHIsbyH5":
     "modules/k4lt-assets-ai/scenarios/gallery-of-souls/portraits/howarts-enforcers-3.webp",
   "Scene.POzFRJxeNALDJaTq.Token.gjYuyKsd8MiTl5au":
-    "modules/k4lt-assets-ai/scenarios/gallery-of-souls/portraits/the-damned-legionnaires-2.webp",
+    "modules/k4lt-assets-ai/scenarios/gallery-of-souls/portraits/the-damned-legionnaires-2.webp"
+};
+const PORTRAIT_MAPPING = {
+  "Adorateur du cairath": "cairath-worshiper",
+  "Agent de police": "police-officer",
+  "Gardien du parc": "park-guard",
+  "Hommes de main d'Howart": "howarts-enforcers",
+  "M. Pickett": "mr-pickett",
+  "Purgatides hurlants": "howling-purgatide"
 };
 export async function checkForGalleryOfSoulsModule() {
   const isModuleEnabled = game.modules.get("k4lt-assets")?.active;
@@ -96,7 +103,8 @@ async function getUpdatedImage(actor, currentImg, fromPath, toPath) {
   if (currentImg?.startsWith(fromPath)) {
     targetImg = toPath + currentImg.split("/").pop();
   } else if (currentImg?.includes("icons/svg/mystery-man.svg")) {
-    targetImg = `${toPath}${formatFilenameFromName(actor.name)}.webp`;
+    const filename = PORTRAIT_MAPPING[actor.name] ?? formatFilenameFromName(actor.name);
+    targetImg = `${toPath}${filename}.webp`;
   }
   if (!targetImg) return null;
   try {

@@ -1,18 +1,43 @@
 {
   "k4lt-assets-ai": {
+    "Madonna": {
+      "Dialog": {
+        "moduleActivatedContent": "Le module <strong>k4lt-assets-ai</strong> contient des éléments supplémentaires générés par IA pour le module <strong>k4lt-the-black-madonna</strong>. Ces éléments sont conçus pour enrichir l'expérience et renforcer l'immersion dans la campagne <strong>The Black Madonna</strong>."
+      },
+      "Settings": {
+        "useAdditionalContentName": "Activer le contenu supplémentaire IA pour The Black Madonna",
+        "useAdditionalContentHint": "Activez cette option si vous souhaitez utiliser du contenu généré par IA pour enrichir la campagne The Black Madonna."
+      }
+    },
+    "Gallery": {
+      "Dialog": {
+        "moduleActivatedContent": "Le module <strong>k4lt-assets-ai</strong> contient des éléments supplémentaires générés par IA pour le scénario <strong>Gallery of Souls</strong>. Ces éléments sont conçus pour enrichir l'expérience et renforcer l'immersion."
+      },
+      "Settings": {
+        "useAdditionalContentName": "Activer le contenu supplémentaire IA pour Gallery of Souls",
+        "useAdditionalContentHint": "Activez cette option si vous souhaitez utiliser du contenu généré par IA pour enrichir le scénario Gallery of Souls."
+      }
+    },
+    "Oakwood": {
+      "Dialog": {
+        "moduleActivatedContent": "Le module <strong>k4lt-assets-ai</strong> contient des éléments supplémentaires générés par IA pour le scénario <strong>Oakwood Heights</strong>. Ces éléments sont conçus pour enrichir l'expérience et renforcer l'immersion."
+      },
+      "Settings": {
+        "useAdditionalContentName": "Activer le contenu supplémentaire IA pour Oakwood Heights",
+        "useAdditionalContentHint": "Activez cette option si vous souhaitez utiliser du contenu généré par IA pour enrichir le scénario Oakwood Heights."
+      }
+    },
     "Dialog": {
-      "moduleActivatedTitle": "Module détecté : Contenu additionnel disponible",
-      "moduleActivatedContent": "Le module <strong>k4lt-assets-ai</strong> contient des éléments supplémentaires générés par IA pour le module <strong>k4lt-the-black-madonna</strong>. Ces éléments sont conçus pour enrichir l'expérience et renforcer l'immersion dans la campagne <strong>The Black Madonna</strong>.",
-      "moduleActivatedQuestion": "Voulez-vous utiliser ce contenu additionnel créé avec des outils génératifs ?",
-      "applyMadonnaAdditionalContent": "Application du contenu additionnel...",
-      "doNotShowAgain": "Ne plus afficher"
+      "moduleActivatedTitle": "Module détecté : contenu supplémentaire disponible",
+      "moduleActivatedQuestion": "Souhaitez-vous utiliser ce contenu supplémentaire créé à l'aide d'outils de génération par IA ?",
+      "doNotShowAgain": "Ne plus afficher ce message"
     },
     "Settings": {
-      "useAdditionalContentName": "Activer le contenu additionnel",
+      "useAdditionalContentName": "Activer le contenu supplémentaire",
       "useAdditionalContentHint": "Activez cette option si vous souhaitez utiliser du contenu généré par IA pour enrichir la campagne The Black Madonna.",
-      "hideAssetsDialogName": "Ne plus afficher la boîte de dialogue",
-      "hideAssetsDialogHint": "Si activé, la boîte de dialogue ne sera plus affichée pour cet utilisateur.",
-      "AIGeneratedNotice": "<div style='border: 1px solid #888; padding: 1em; background-color: #1e1e1e; color: #e0e0e0; border-radius: 6px; font-size: 0.9em; line-height: 1.5;'><p>Ce matériel généré par IA est :</p><ul style='margin-top: 0.5em; margin-bottom: 0.5em;'><li><strong>Non officiel</strong>, et ne fait pas partie du contenu original de <em>Kult : The Black Madonna</em>,</li><li><strong>Non approuvé, soutenu ou révisé</strong> par Helmgast ou les détenteurs des droits de <em>Kult</em>,</li><li><strong>Fourni gratuitement et séparément</strong> via le module \"k4lt-assets-ai\",</li><li><strong>Désactivé par défaut</strong>, et uniquement activé avec le consentement explicite du Maître de Jeu.</li></ul><p>Ce contenu a été créé par moi dans le but d'enrichir l'expérience sur table virtuelle, tout en le distinguant clairement du matériel canonique. Il suit une <strong>direction artistique et un ton narratif distincts</strong> pour éviter toute confusion avec les ressources officielles de <em>Kult</em>.</p></div>"
+      "hideAssetsDialogName": "Ne plus afficher cette boîte de dialogue",
+      "hideAssetsDialogHint": "Si cette option est activée, cette boîte de dialogue ne sera plus affichée pour cet utilisateur.",
+      "AIGeneratedNotice": "<div style='border: 1px solid #888; padding: 1em; background-color: #1e1e1e; color: #e0e0e0; border-radius: 6px; font-size: 0.9em; line-height: 1.5;'><p>Ce contenu généré par IA est :</p><ul style='margin-top: 0.5em; margin-bottom: 0.5em;'><li><strong>Non officiel</strong> et ne fait partie d'aucune publication officielle de <em>KULT: Divinity Lost</em>,</li><li><strong>Ni approuvé, ni soutenu, ni relu</strong> par Helmgast ou les détenteurs des droits de <em>KULT</em>,</li><li><strong>Distribué gratuitement et séparément</strong> via le module <code>k4lt-assets-ai</code>,</li><li><strong>Désactivé par défaut</strong> et uniquement activé avec le consentement explicite du Maître de Jeu.</li></ul><p>Ce contenu a été créé afin d'enrichir l'expérience sur table virtuelle tout en restant clairement distinct du matériel officiel. Il suit une <strong>direction artistique et une tonalité narrative propres</strong> afin d'éviter toute confusion avec le contenu canonique de <em>KULT</em>.</p></div>"
     },
     "Module": {
       "Title": "Module k4lt-assets-ai"
