@@ -1,5 +1,13 @@
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt-assets-ai%2Fmaster%2Fmodule.json&query=%24.compatibility.verified&label=foundry%20vtt&color=%23ee9b3a) ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYanKlInnomme%2FFoundryVTT-k4lt-assets-ai%2Fmaster%2Fmodule.json&query=%24.version&label=version&color=%230f2f2b) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/YanKlInnomme/FoundryVTT-k4lt-assets-ai/total) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-raw/YanKlInnomme/FoundryVTT-k4lt-assets-ai) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed-raw/YanKlInnomme/FoundryVTT-k4lt-assets-ai) ![GitHub forks](https://img.shields.io/github/forks/YanKlInnomme/FoundryVTT-k4lt-assets-ai) ![GitHub Repo stars](https://img.shields.io/github/stars/YanKlInnomme/FoundryVTT-k4lt-assets-ai) [![Static Badge](https://img.shields.io/badge/buy_me_a_coffee-FFDD00?logo=Buy%20Me%20A%20Coffee&logoColor=black)](https://www.buymeacoffee.com/yank)
 
+<img width="1919" height="1007" alt="Capture d&#39;écran 2026-07-13 120721" src="https://github.com/user-attachments/assets/ffa25168-200f-4218-86d8-7f2bafaff4f5" />
+<img width="1919" height="1007" alt="Capture d&#39;écran 2026-07-13 115432" src="https://github.com/user-attachments/assets/1d947c06-76bb-45ea-b04f-73ef875d924f" />
+<img width="1919" height="1009" alt="Capture d&#39;écran 2026-07-13 115724" src="https://github.com/user-attachments/assets/62093ba2-294b-4661-8541-9c3697764801" />
+<img width="1919" height="1006" alt="Capture d&#39;écran 2026-07-13 115627" src="https://github.com/user-attachments/assets/0578071c-d06b-444c-8499-d9a79ed0ec89" />
+<img width="1919" height="1007" alt="Capture d&#39;écran 2026-07-13 120006" src="https://github.com/user-attachments/assets/6ae31ad2-5659-48a6-962f-fb0fc9c5f151" />
+<img width="1912" height="1005" alt="Capture d&#39;écran 2026-07-13 120404" src="https://github.com/user-attachments/assets/6d6d184f-f13d-4bbf-9f8e-3b0ee62276a8" />
+<img width="1919" height="1006" alt="Capture d&#39;écran 2026-07-13 120211" src="https://github.com/user-attachments/assets/5fdf4ff7-8d5c-4ae0-9c6f-5e8c6d3b00b2" />
+
 [**See below for the English version**](#k4lt-assets-ai-Module-for-Foundry-VTT)
 
 # Module k4lt-assets-ai pour Foundry VTT
